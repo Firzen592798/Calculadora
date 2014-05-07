@@ -12,7 +12,6 @@ public class CalculadoraTest {
 	public void testDiv() {
 		Calculadora c = new Calculadora();
 		assertEquals(c.div(10, 2), 5);
-		c.div(10, 0);
 	}
 	@Test
 	public void testSub() {
